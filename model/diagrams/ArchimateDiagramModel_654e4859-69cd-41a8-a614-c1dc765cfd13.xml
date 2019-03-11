@@ -1493,4 +1493,26 @@
         xsi:type="archimate:ApplicationInterface"
         href="ApplicationInterface_6094db13-d85c-4bcf-b27a-806f0da3d0ba.xml#6094db13-d85c-4bcf-b27a-806f0da3d0ba"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a1877de0-8283-4dda-ab9c-baf93022b33e"
+      textAlignment="1"
+      content="Rever&#xA;">
+    <bounds
+        x="1164"
+        y="528"
+        width="97"
+        height="97"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ff69ef3f-7646-48e9-a84e-7e83fa58711c"
+      textAlignment="1"
+      content="rever&#xA;">
+    <bounds
+        x="465"
+        y="368"
+        width="77"
+        height="36"/>
+  </children>
 </archimate:ArchimateDiagramModel>

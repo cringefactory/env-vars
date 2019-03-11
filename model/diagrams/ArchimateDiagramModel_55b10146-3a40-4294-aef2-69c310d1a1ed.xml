@@ -11,6 +11,17 @@
         y="48"
         width="709"
         height="379"/>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="adbdfb0d-afdc-4448-b3fa-723fd611325a"
+        textAlignment="1"
+        content="Assignacao esta mal&#xA;">
+      <bounds
+          x="564"
+          y="240"
+          width="133"
+          height="25"/>
+    </children>
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_bac0c162-9ea6-490a-a6c4-a7c502f1a057.xml#bac0c162-9ea6-490a-a6c4-a7c502f1a057"/>
@@ -398,5 +409,27 @@
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_bb9fe139-ecac-4dd1-a6b9-24f87e5e84c9.xml#bb9fe139-ecac-4dd1-a6b9-24f87e5e84c9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="cb4baa78-c11a-419b-b339-b728a41e3c21"
+      textAlignment="1"
+      content="meter responsaveis por&#xA;">
+    <bounds
+        x="96"
+        y="270"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="2c96ed8f-6cd3-4cdf-a96a-4d9b2f4da560"
+      textAlignment="1"
+      content="Mais rolos e equipas de tecnicas">
+    <bounds
+        x="246"
+        y="528"
+        width="84"
+        height="61"/>
   </children>
 </archimate:ArchimateDiagramModel>
