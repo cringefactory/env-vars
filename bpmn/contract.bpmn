@@ -12,7 +12,7 @@
     <bpmn:messageFlow id="MessageFlow_02ngs04" sourceRef="Participant_1x0wk5y" targetRef="IntermediateThrowEvent_1bzv6ti" />
     <bpmn:messageFlow id="MessageFlow_15i7xhe" sourceRef="Participant_1x0wk5y" targetRef="StartEvent_00pmiiy" />
     <bpmn:messageFlow id="MessageFlow_01cxcy8" name="Objections" sourceRef="IntermediateThrowEvent_03a6jvl" targetRef="IntermediateCatchEvent_0uat81y" />
-    <bpmn:messageFlow id="MessageFlow_0wi3uis" name="Contract" sourceRef="IntermediateThrowEvent_1nruufm" targetRef="IntermediateCatchEvent_023ko6p" />
+    <bpmn:messageFlow id="MessageFlow_0wi3uis" sourceRef="IntermediateThrowEvent_1nruufm" targetRef="IntermediateCatchEvent_023ko6p" />
     <bpmn:messageFlow id="MessageFlow_15ozddu" sourceRef="Task_04dvxqe" targetRef="Participant_0buxhod" />
     <bpmn:messageFlow id="MessageFlow_11ys5ep" name="Cancellation" sourceRef="Participant_0buxhod" targetRef="BoundaryEvent_1o4hhf1" />
     <bpmn:messageFlow id="MessageFlow_0ez8e5l" sourceRef="Participant_1x0wk5y" targetRef="IntermediateCatchEvent_171fhjc" />
@@ -300,6 +300,11 @@
     <bpmn:sequenceFlow id="SequenceFlow_06jqo80" name="rejected" sourceRef="ExclusiveGateway_1x79cc4" targetRef="IntermediateThrowEvent_03a6jvl" />
     <bpmn:endEvent id="IntermediateThrowEvent_1nruufm">
       <bpmn:incoming>SequenceFlow_02knaat</bpmn:incoming>
+      <bpmn:property id="Property_11842v9" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_0fuc8wn">
+        <bpmn:sourceRef>DataObjectReference_0dbbr49</bpmn:sourceRef>
+        <bpmn:targetRef>Property_11842v9</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
       <bpmn:messageEventDefinition />
     </bpmn:endEvent>
     <bpmn:endEvent id="IntermediateThrowEvent_03a6jvl">
@@ -848,6 +853,10 @@
         <di:waypoint x="2063" y="162" />
         <di:waypoint x="2384" y="162" />
         <di:waypoint x="2491" y="281" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_0fuc8wn_di" bpmnElement="DataInputAssociation_0fuc8wn">
+        <di:waypoint x="1810" y="979" />
+        <di:waypoint x="1860" y="1007" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
