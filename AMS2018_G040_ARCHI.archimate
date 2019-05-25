@@ -248,9 +248,6 @@
           <bendpoint startX="-407" startY="-663" endX="-104" endY="21"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="fbdca5d8-281e-4b73-a428-57509113095f" archimateElement="f8c8f3aa-30f7-4076-b901-860319c7f223">
-        <bounds x="1127" y="883" width="133" height="55"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="9f5357b7-482b-4b1c-a3b6-869bfee13b70" archimateElement="06a091d5-42c9-4e05-9a3d-e6fd60a6e479">
         <bounds x="1211" y="360" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="699a13f4-cb7f-4923-abf7-28d0edc665a3" source="9f5357b7-482b-4b1c-a3b6-869bfee13b70" target="5440bfa4-7b0c-4a17-bdb8-0e355a3ba415" archimateRelationship="370a58d3-0beb-4743-959f-745f89ac73fb">
